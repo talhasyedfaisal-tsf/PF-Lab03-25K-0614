@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    printf("Full Name: Your Name\n");
+    printf("FAST NU ID: YourRoll\n");
+    printf("\tTabbed Line\n");
+    printf("New Line Example:\nThis is on a new line.\n");
+
+    system("pause");
+    return 0;
+}
