@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    float num;
+
+    printf("Enter a floating-point number: ");
+    scanf("%f", &num);
+
+    printf("With 3 decimal places: %.3f\n", num);
+    printf("With 6 decimal places: %.6f\n", num);
+
+    system("pause");
+    return 0;
+}
